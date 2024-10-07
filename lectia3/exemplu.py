@@ -8,3 +8,13 @@ Care este adresa ta de email? ion.popescu@gmail.com
 Care este numarul tau de telefon? 0723456789
 ion.popescu789
 """
+
+email = input("Care este adresa ta de email? ")
+nr_telefon = input("Care este numarul tau de telefon?(10 cifre) ")
+
+# gasirea indexului lui @
+index = email.find("@")
+
+rezultat = email[:index] + nr_telefon[-3:]
+
+print(rezultat)

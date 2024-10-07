@@ -11,4 +11,16 @@
 # Dupa o saptamana de lucrat realizezi ca ai salariul cam mic, asa ca accepti si mita
 # Daca cineva iti da macar 100 de lei, ii lasi sa intre indiferent daca indeplinesc criteriile
 
-...
+
+varsta = int(input("Cati ani are? "))
+acord = input("Are acord parental?(da sau nu) ")
+bani = int(input("Cati bani are? "))
+
+conditie1 = varsta >= 16
+conditie2 = acord == "da" or varsta >= 18
+conditie3 = bani >= 40
+
+if ((conditie1 and conditie2 and conditie3) or bani >= 100):
+    print("Poti sa intrii")
+else:
+    print("Nu poti sa intrii")

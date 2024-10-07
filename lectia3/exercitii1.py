@@ -9,7 +9,6 @@ Care este prenumele tau? Aron
 Care este anul nasterii tale? 2012
 Ar12
 """
-
 # Ioan: 
 '''
 Cere utilizatorului sa isi introduca Numele si salveaza-l intr-o variabila.
@@ -21,7 +20,6 @@ Care este numele tau? Ioan
 Care este CNP-ul tau? 1023108976123
 I976123
 '''
-
 # David:
 """
 Cere utilizatorului sa introduca orasul natal si salveaza-l intr-o variabila.
@@ -34,3 +32,8 @@ Care este orasul tau natal? Bucuresti
 Care este data ta importanta? 24.05.2010
 B24.05
 """
+
+
+
+# "12.04.2000"
+# #0123456789
